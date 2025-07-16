@@ -25,11 +25,11 @@ async def hello(interaction: discord.Interaction):
 
 @bot.tree.command(name="socials", description="See all of Horizon's socials")
 async def socials(interaction: discord.Interaction):
-    await interaction.response.send_message("YouTube: https://www.youtube.com/@HorizonSpot \n X: https://x.com/Horizon_Spot \n Itch: https://horizonspot.itch.io/")
+    await interaction.response.send_message("example social")
 
 @bot.tree.command(name="progress", description="Show progress on the next game")
 async def progress(interaction: discord.Interaction):
-    await interaction.response.send_message("Game name: 'Permission to Die' \n Status: Prototyping & making concepts")
+    await interaction.response.send_message("example progress")
 
 
 # Run
